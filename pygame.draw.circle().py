@@ -1,8 +1,4 @@
-
-# coding: utf-8
-
-# In[ ]:
-
+# Draw Circle
 
 import pygame
 
@@ -22,9 +18,7 @@ while run:
 pygame.quit()
 quit()
 
-
-# In[ ]:
-
+----------------------------------------------------------------------------
 
 import pygame
 
