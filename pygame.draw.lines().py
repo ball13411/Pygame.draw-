@@ -9,7 +9,7 @@ red = (255,0,0)
 
 run = True 
 while run:
-    pygame.draw.lines(screen, red, True, [(100,200), (300,200)])
+    pygame.draw.lines(screen, red, True, [(100,200), (300,200)])                           # Draw Lines
     pygame.display.update()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -29,7 +29,7 @@ red = (255,0,0)
 
 run = True 
 while run:
-    pygame.draw.lines(screen, red, True, [(100,300), (300,300),(200,100)],5)
+    pygame.draw.lines(screen, red, True, [(100,300), (300,300),(200,100)],5)             # Draw Lines
     pygame.display.update()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -51,7 +51,7 @@ red = (255,0,0)
 
 run = True 
 while run:
-    pygame.draw.lines(screen, red, True, [(100,300), (300,300),(100,100),(300,100)],5)
+    pygame.draw.lines(screen, red, True, [(100,300), (300,300),(100,100),(300,100)],5)       # Draw Lines
     pygame.display.update()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
