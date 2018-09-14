@@ -9,7 +9,7 @@ red = (255,0,0)
 
 run = True 
 while run:
-    pygame.draw.polygon(screen,red,[(200,50),(300,100),(300,300),(200,350),(100,300),(100,100)])
+    pygame.draw.polygon(screen,red,[(200,50),(300,100),(300,300),(200,350),(100,300),(100,100)])      # Draw Polygon
     pygame.display.update()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -31,7 +31,7 @@ red = (255,0,0)
 
 run = True 
 while run:
-    pygame.draw.polygon(screen,red,[(200,50),(300,100),(300,300),(200,350),(100,300),(100,100)],20)
+    pygame.draw.polygon(screen,red,[(200,50),(300,100),(300,300),(200,350),(100,300),(100,100)],20)    # Draw Polygon
     pygame.display.update()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
