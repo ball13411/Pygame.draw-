@@ -1,8 +1,4 @@
-
-# coding: utf-8
-
-# In[ ]:
-
+# Draw Polygon
 
 import pygame
 
@@ -23,7 +19,7 @@ pygame.quit()
 quit()
 
 
-# In[ ]:
+#----------------------------------------------------------------------------
 
 
 import pygame
