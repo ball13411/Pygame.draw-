@@ -9,7 +9,7 @@ red = (255,0,0)
 
 run = True 
 while run:
-    pygame.draw.circle(screen,red,(200,200),100)
+    pygame.draw.circle(screen,red,(200,200),100)                          # draw.circle
     pygame.display.update()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -29,7 +29,7 @@ red = (255,0,0)
 
 run = True 
 while run:
-    pygame.draw.circle(screen,red,(200,200),100,50)
+    pygame.draw.circle(screen,red,(200,200),100,50)                      # draw.circle
     pygame.display.update()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
