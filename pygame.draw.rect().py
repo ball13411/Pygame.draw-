@@ -6,7 +6,7 @@ pygame.init()
 screen=pygame.display.set_mode((400,400))
 pygame.display.set_caption("pygame draw()")
 red = (255,0,0)
-pygame.draw.rect(screen,red,(100,100,200,200))
+pygame.draw.rect(screen,red,(100,100,200,200))                                           # Draw Rect
 pygame.display.update()
 run = True 
 while run:
@@ -27,7 +27,7 @@ pygame.init()
 screen=pygame.display.set_mode((400,400))
 pygame.display.set_caption("pygame draw()")
 red = (255,0,0)
-pygame.draw.rect(screen,red,(100,100,200,200),20)
+pygame.draw.rect(screen,red,(100,100,200,200),20)                                        # Draw Rect
 pygame.display.update()
 run = True 
 while run:
@@ -48,7 +48,7 @@ pygame.init()
 screen=pygame.display.set_mode((400,400))
 pygame.display.set_caption("pygame draw()")
 red = (255,0,0)
-pygame.draw.rect(screen,red,(100,100,200,200),200)
+pygame.draw.rect(screen,red,(100,100,200,200),200)                                      # Draw Rect
 pygame.display.update()
 run = True 
 while run:
