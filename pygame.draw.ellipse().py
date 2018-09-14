@@ -9,7 +9,7 @@ red = (255,0,0)
 
 run = True 
 while run:
-    pygame.draw.ellipse(screen,red,(50,50,300,200))
+    pygame.draw.ellipse(screen,red,(50,50,300,200))                                   # Draw Ellipse
     pygame.display.update()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -24,12 +24,12 @@ import pygame
 
 pygame.init()
 screen=pygame.display.set_mode((400,400))
-pygame.display.set_caption("pygame draw()")
+pygame.display.set_caption("pygame draw()") 
 red = (255,0,0)
 
 run = True 
 while run:
-    pygame.draw.ellipse(screen,red,(50,50,300,200),50)
+    pygame.draw.ellipse(screen,red,(50,50,300,200),50)                               # Draw Ellipse
     pygame.display.update()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
